@@ -997,3 +997,67 @@ span {
     word-spacing: 2px;
     color: rgb(0, 255, 0);
 }
+
+/* ====================social media links ================ */
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 100px;
+    margin-top: -80px;
+}
+
+@media (max-width:1200px){
+    .social-media{
+        margin: 70px;
+    }
+}
+@media (max-width:800px){
+    .social-media{
+        margin: 50px;
+    }
+}
+@media (max-width:500px){
+    .social-media{
+        margin: 30px;
+    }
+}
+@media (max-width:450px){
+    .social-media .item i{
+        line-height: 47px;
+    }
+}
+
+@media (max-width:450px){
+    .social-media{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-top: -150px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.social-media .item {
+    height: 50px;
+    width: 50px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 63px;
+    border: 2px solid #00abf0;
+    border-radius: 20%;
+    transition: .5s;
+}
+.social-media .item:hover{
+    background: #00abf0;
+    transition: .5s;
+}
+
+.social-media .item i {
+    font-size: 30px;
+    color: #00abf0;
+    transition: .5s;
+}
+
+.social-media .item i:hover{
+    color: black;
+}
