@@ -1032,8 +1032,7 @@ span {
     .social-media{
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
-        margin-top: -150px;
-        margin-bottom: 20px;
+        
     }
 }
 
@@ -1046,7 +1045,7 @@ span {
     line-height: 63px;
     border: 2px solid #00abf0;
     border-radius: 20%;
-    background: red;
+    background:pink;
     transition: .5s;
 }
 .social-media .item:hover{
