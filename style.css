@@ -1025,6 +1025,10 @@ span {
     .social-media .item i{
         line-height: 47px;
     }
+    
+    .social-media{
+        margin-top:100px;
+    }
 }
 
 @media (max-width:450px){
