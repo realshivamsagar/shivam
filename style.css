@@ -978,7 +978,7 @@ span {
 @keyframes aboutSpinner {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
-    }
+    } 
 }
 
 @keyframes showRight {
@@ -1002,8 +1002,8 @@ span {
 .social-media {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin: 100px;
-    height: 200px;
+/*     margin: 100px;
+    height: 200px; */
     position :relative;
 }
 
