@@ -1003,7 +1003,7 @@ span {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 100px;
-    margin-top: -80px;
+    height: 200px;
 }
 
 @media (max-width:1200px){
@@ -1025,10 +1025,7 @@ span {
     .social-media .item i{
         line-height: 47px;
     }
-    
-    .social-media{
-        padding-top: 100px;
-    }
+   
 }
 
 @media (max-width:450px){
@@ -1049,6 +1046,7 @@ span {
     line-height: 63px;
     border: 2px solid #00abf0;
     border-radius: 20%;
+    background: red;
     transition: .5s;
 }
 .social-media .item:hover{
